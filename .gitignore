@@ -1,0 +1,8 @@
+.DS_Store
+/node_modules
+/build
+/dist
+/.cache
+yarn.lock
+yarn-error.log
+debug.log

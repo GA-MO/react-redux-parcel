@@ -1,0 +1,12 @@
+{
+  "extends": [ "standard", "standard-react" ],
+  "plugins": [ "react-hooks" ],
+  "parser": "babel-eslint",
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "object-curly-spacing": [ "error", "always" ],
+    "react/prop-types": "off",
+    "import/no-unresolved": "error",
+    "space-before-function-paren": "off"
+  }
+}
