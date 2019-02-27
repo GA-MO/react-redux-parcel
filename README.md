@@ -23,6 +23,10 @@ $ npm run test
 $ npm run test:watch
 ```
 
+## Redux with React-modux
+
+Use React module with [react-modux](https://www.npmjs.com/package/redux-modux)
+
 ## Mockup JSON
 
 Create `.json` files in folder `/JSONMockup` for mockup data from api response
