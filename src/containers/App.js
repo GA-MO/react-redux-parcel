@@ -1,5 +1,7 @@
 import React, { memo, Suspense } from 'react'
 import { Global, css } from '@emotion/core'
+import { Router } from 'react-router-dom'
+import { history } from '../utils'
 
 const globalStyles = css`
   html,
@@ -10,6 +12,6 @@ const globalStyles = css`
 export default memo(props => (
   <Suspense fallback={null}>
     <Global styles={globalStyles} />
-    {props.children}
+    <Router history={history}>{props.children}</Router>
   </Suspense>
 ))
